@@ -13,12 +13,14 @@ QtCreator->Options->SailfishOS
 - in connection
 
 after successfully connected, i did skip this: sb2-config -d SailfishOS-armv7hl`
+and did that:
 
-or better, start with setting vm to propper target in qtcreator
 list all available targets:
 sb2-config -l
 set propper target using:
 sb2-config -d SailfishOS-4.3.0.12-aarch64
 
+then followed article to use sb2
+then exit sb2
 
 
