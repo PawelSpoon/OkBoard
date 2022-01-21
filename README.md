@@ -21,13 +21,17 @@ set propper target using:
 sb2-config -d SailfishOS-4.3.0.12-aarch64
 
 then followed article to use sb2
+
 then exit sb2
 
 then created all subfolders as required
+
 then created a folder okboard-root
 
 then copy extracted stuff to 
+
 scp -r -i ~/SailfishOS/vmshare/ssh/private_keys/sdk -P 2222  okb-engine-0.6.20 mersdk@localhost:/home/mersdk/okboard-root
+
 scp -r -i ~/SailfishOS/vmshare/ssh/private_keys/sdk -P 2222  OkBoard-Engine-Git mersdk@localhost:/home/mersdk/okboard-root
 
 rem: check what is in what .. folder
