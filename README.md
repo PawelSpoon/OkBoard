@@ -56,6 +56,16 @@ fatal: not a git repository (or any of the parent directories): .git
 scp -r -i ~/SailfishOS/vmshare/ssh/private_keys/sdk -P 2222  /home/pawel/Downloads/okboard-0.6.34.tar.gz   mersdk@localhost:/home/mersdk/rpmbuild/SOURCES
 scp -r -i ~/SailfishOS/vmshare/ssh/private_keys/sdk -P 2222 /home/pawel/Downloads/okb-engine-0.6.20.tar.gz  mersdk@localhost:/home/mersdk/rpmbuild/SOURCES
 
+both versions need to be same, so i had to rename okb-engine to 6.34
+
+finally a real build error:
+rror: Failed build dependencies:
+	pkgconfig(Qt5Core) is needed by okboard-full-0.6.34-1.i386
+	pkgconfig(Qt5Gui) is needed by okboard-full-0.6.34-1.i386
+	pkgconfig(Qt5Qml) is needed by okboard-full-0.6.34-1.i386
+	pkgconfig(Qt5Quick) is needed by okboard-full-0.6.34-1.i386
+	pkgconfig(sailfishapp) >= 0.0.10 is needed by okboard-full-0.6.34-1.i386
+
 
 
 
