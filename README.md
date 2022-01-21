@@ -44,6 +44,16 @@ then run release.sh from okboard-engine-git
 
 then i had an error in build: fatal error: Python.h: No such file or directory
 
-udo zypper in python3-devel
+sudo zypper in python3-devel
+
+you have really to copy the language files to db folder and you have to unzip all the .gz files there
+using gzip -d ....gz
+
+then build runs till 
+
+fatal: not a git repository (or any of the parent directories): .git
+
+
+
 
 
