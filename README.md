@@ -32,7 +32,10 @@ scp -r -i ~/SailfishOS/vmshare/ssh/private_keys/sdk -P 2222  OkBoard-Engine-Git 
 
 rem: check what is in what .. folder
 copy engine as okb-engine into ..
-cp okb-engine-0.6.20 OkBoard-Engine-Git/okb-engine -r
+rename ok-board-6.. to ok-board
+cp okb-engine-0.6.20 okb-engine -r
+
+#cp okb-engine-0.6.20 OkBoard-Engine-Git/okb-engine -r
 then run release.sh from okboard-engine-git
 
 
