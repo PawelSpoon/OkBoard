@@ -54,6 +54,7 @@ then build runs till
 fatal: not a git repository (or any of the parent directories): .git
 
 scp -r -i ~/SailfishOS/vmshare/ssh/private_keys/sdk -P 2222  /home/pawel/Downloads/okboard-0.6.34.tar.gz   mersdk@localhost:/home/mersdk/rpmbuild/SOURCES
+scp -r -i ~/SailfishOS/vmshare/ssh/private_keys/sdk -P 2222 /home/pawel/Downloads/okb-engine-0.6.20.tar.gz  mersdk@localhost:/home/mersdk/rpmbuild/SOURCES
 
 
 
