@@ -75,6 +75,10 @@ in okboard-full.spec ln 55:
 mv cfslm*.so cfslm.so
 
 this returns target cfslm.so is not a directory 
+possible to something like here
+
+https://github.com/triton-inference-server/server/issues/1888
+
 
 
 
