@@ -67,6 +67,14 @@ rror: Failed build dependencies:
 	pkgconfig(sailfishapp) >= 0.0.10 is needed by okboard-full-0.6.34-1.i386
 
 
+for some reasons i do need in build root board and engine twice there, once with, once without version
+then there was an error maybe introduced by me in curve_match.cpp on line 908 or so TH should be MAX_DEVICE_WIDTH or something, go and check in real files
+
+then finaly i get an error:
+in okboard-full.spec ln 55:
+mv cfslm*.so cfslm.so
+
+this returns target cfslm.so is not a directory 
 
 
 
