@@ -1,5 +1,6 @@
 # OkBoard
-hints to build okboard
+this repository is not a fork of okboard. it just contains hints and files that are needeed to build ok board
+
 
 # Build OkBoard
 Okboard-Engine contains a readme.md file with How to build and deploy
@@ -79,6 +80,10 @@ possible to something like here
 
 https://github.com/triton-inference-server/server/issues/1888
 
+----
+
+the new and final start
+get make_release.sh and follow the instructions. either add sdk to your path or change scripts with the build path
 
 
 
