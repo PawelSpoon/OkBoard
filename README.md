@@ -9,7 +9,7 @@ You can connect to build vm using this correct string:
 `ssh -i <SDK install dir>/vmshare/ssh/private_keys/sdk -p 2222 mersdk@localhost`
 
 which you can actually get from:
-QtCreator->Options->SailfishOS
+QtCreator->Tools->Options->SailfishOS
 - on build engine tab
 - in connection
 
